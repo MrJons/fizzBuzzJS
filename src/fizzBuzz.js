@@ -1,10 +1,12 @@
-var fizzBuzz = function num(i) {
-for (num = 0; num < 101; num++); {
-  if (i % 3 === 0 && i % 5 === 0){
-    return('fizzBuzz');
-  } else if (i % 3 === 0){
-        return('fizz');
-      } else if (i % 5 === 0){
-            return('buzz');
-      } else { return(i);
-}}};
+
+for (num = 0; num < 101; num++){
+ if(num % 3 === 0 && num % 5 === 0){
+   console.log("fizzbuzz");
+ } else if (num % 5 === 0){
+   console.log("buzz");
+ } else if (num % 3 === 0){
+   console.log("fizz");
+ } else {
+   console.log(num);
+ }
+}
